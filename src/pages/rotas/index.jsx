@@ -18,13 +18,13 @@ function rotas() {
     <div>
       <h2>Rotas Index</h2>
       <ul>
-        <Link href="/rotas/params?id=12&nome=hernan">
+        <Link href="/rotas/params?id=12&nome=hernan" passHref>
           <li>Params</li>
         </Link>
-        <Link href="/rotas/123/buscar">
+        <Link href="/rotas/123/buscar" passHref>
           <li>Buscar</li>
         </Link>
-        <Link href="/rotas/1234/Luis">
+        <Link href="/rotas/1234/Luis" passHref>
           <li>Buscar 2</li>
         </Link>
       </ul>

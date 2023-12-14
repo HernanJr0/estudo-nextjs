@@ -14,7 +14,7 @@ export default function params() {
             <p>nome: {nome}</p>
             <p>id: {id}</p>
 
-            <Link href="/rotas">
+            <Link href="/rotas" passHref>
                 <button>Voltar</button>
             </Link>
         </div>
